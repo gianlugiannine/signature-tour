@@ -3,21 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#143d34">
+  <meta name="theme-color" content="#0f2f63">
   <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
-  <link rel="icon" href="data:,">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <link rel="icon" type="image/png" href="./brand/signature-icon.png">
+  <meta name="description" content="Explore Signature Home Buyers’ team workspace. Follow up with a seller, estimate a cash offer and prepare for a visit.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Signature Home Buyers · Interactive tour">
+  <meta property="og:title" content="Central Command · Signature Home Buyers">
+  <meta property="og:description" content="Try the interactive team walkthrough. Follow a seller lead, estimate an offer and prepare a visit.">
+  <meta property="og:url" content="https://gianlugiannine.github.io/signature-tour/">
+  <meta property="og:image" content="https://gianlugiannine.github.io/signature-tour/brand/tour-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Signature Home Buyers Central Command interactive walkthrough">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Central Command · Interactive tour</title>
-  <link rel="stylesheet" href="./viewer.css">
-  <script defer src="./viewer.js"></script>
+  <link rel="stylesheet" href="./viewer.css?v=signature-1">
+  <script defer src="./viewer.js?v=signature-1"></script>
 </head>
 <body>
 <main class="viewer" aria-label="Central Command interactive tour">
   <header class="bar">
-    <div class="brand"><span class="mark" aria-hidden="true">S</span><div><span class="brand-name">Central Command</span><span class="brand-sub">Signature Home Buyers</span></div></div>
+    <div class="brand">
+      <img class="brand-logo" src="./brand/signature-logo.png" alt="Signature Home Buyers" width="300" height="202">
+      <div class="brand-label"><span class="brand-name">Central Command</span><span class="brand-sub">Team walkthrough</span></div>
+    </div>
     <nav class="controls" aria-label="Tour navigation">
-      <button id="back" class="back-button" type="button" disabled><span aria-hidden="true">←</span> Back</button>
+      <button id="back" class="back-button" type="button" aria-label="Back" disabled><span aria-hidden="true">←</span><span class="back-label"> Back</span></button>
       <button id="chapters-toggle" class="chapters-button" type="button" aria-haspopup="dialog" disabled><span class="list-icon" aria-hidden="true"></span> Chapters</button>
     </nav>
   </header>

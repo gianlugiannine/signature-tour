@@ -99,7 +99,7 @@ function openMenu() {
 }
 
 async function start() {
-  const response = await fetch("./tour.json");
+  const response = await fetch("./tour.json?v=signature-1");
   if (!response.ok) throw Error("Chapters unavailable");
   const catalog = await response.json();
   chapters = catalog.chapters;

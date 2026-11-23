@@ -2,28 +2,28 @@
   "chapters": [
     {
       "id": "assistant",
-      "title": "Ask Sig",
+      "title": "Seller follow-ups",
       "start": "today",
-      "description": "Find a follow-up and open the seller behind it."
+      "description": "Ask Sig who needs a call, then open the seller’s record."
     },
     {
       "id": "deals",
-      "title": "Analyze a deal",
+      "title": "Cash offer estimate",
       "start": "deal",
-      "description": "Compare two methods and save a sample offer."
+      "description": "Review repairs and closing costs, then save an example offer."
     },
     {
       "id": "calls",
-      "title": "Review a call",
+      "title": "Seller visit prep",
       "start": "calls",
-      "description": "Turn a seller conversation into appointment fields."
+      "description": "Use a seller conversation to prepare the property visit."
     }
   ],
   "scenes": [
     {
       "id": "today",
-      "title": "Start with your priorities",
-      "hint": "Select My follow-ups to ask Sig what needs attention.",
+      "title": "Who needs a follow-up?",
+      "hint": "Select My follow-ups to see which seller needs a call today.",
       "alt": "Avery’s Today workspace shows the Ask Sig box, suggested questions and a summary of open work.",
       "links": [
         {
@@ -164,8 +164,8 @@
     },
     {
       "id": "deal",
-      "title": "Estimate a resale offer",
-      "hint": "Calculate with the example figures, or tap Method to try the other scenario.",
+      "title": "Estimate an as-is cash offer",
+      "hint": "Use the sample repair and closing costs, or tap Method for a multifamily property.",
       "alt": "Single-family wholesale inputs show a $270,000 resale price, $25,000 in repairs, $15,000 in selling costs, $6,000 in holding costs and a $30,000 profit target.",
       "links": [
         {
@@ -529,7 +529,7 @@
     {
       "id": "call-draft",
       "title": "Review the prepared fields",
-      "hint": "The address and property details are ready for review.",
+      "hint": "Review the address, property type and details the seller gave during the call.",
       "alt": "The prepared draft includes the address and property type from the sample conversation.",
       "links": [],
       "chapter": "calls",
